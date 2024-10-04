@@ -1,0 +1,37 @@
+{
+  "text.autoconfig.sihywtcamd_extensions.title": "SIHYWTCAMD Extensions Configuration",
+
+  "text.autoconfig.sihywtcamd_extensions.category.skeletons": "Les squelettes",
+  "text.autoconfig.sihywtcamd_extensions.option.skeletons.general": "Les squelettes en général",
+  "text.autoconfig.sihywtcamd_extensions.option.skeletons.general.baby": "Les squelettes peuvent apparaître bébé",
+  "text.autoconfig.sihywtcamd_extensions.option.skeletons.general.babyQuickAttackGoal": "Les bébés squelettes tirent des vollées rapides de flèches",
+  "text.autoconfig.sihywtcamd_extensions.option.skeletons.witherSkeleton": "Le wither squelette",
+  "text.autoconfig.sihywtcamd_extensions.option.skeletons.witherSkeleton.baby": "Les wither squelettes peuvent apparaître bébé",
+
+  "text.autoconfig.sihywtcamd_extensions.category.arthropods": "Les arthropodes",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.generalSpiders": "Les araignées en général",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.generalSpiders.webProjectileGoal": "Les araignées peuvent lancer des toiles",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.spider": "L'araignée",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.spider.babyOnDeath": "Les araignées peuvent faire apparaître des bébés à leur mort",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.spider.babySpawnGroup": "Les araignées peuvent apparaître en groupe de bébés",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.caveSpider": "L'araignée venimeuse",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.caveSpider.babyOnDeath": "Les araignées venimeuses peuvent faire apparaître des bébés à leur mort",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.caveSpider.babySpawnGroup": "Les araignées venimeuses peuvent apparaître en groupe de bébés",
+
+  "text.autoconfig.sihywtcamd_extensions.category.cosmetics": "Les cosmétiques",
+  "text.autoconfig.sihywtcamd_extensions.option.cosmetics.translucentAllay": "La texture des allays est transparente",
+  "text.autoconfig.sihywtcamd_extensions.option.cosmetics.translucentGhast": "La texture des ghasts est transparente",
+  "text.autoconfig.sihywtcamd_extensions.option.cosmetics.translucentPhantom": "La texture des fantômes est transparente",
+  "text.autoconfig.sihywtcamd_extensions.option.cosmetics.translucentVex": "La texture des vexes est transparente",
+
+  "advancements.baby_spider_spawn.title": "Une bébé vengeance",
+  "advancements.baby_spider_spawn.description": "Relachez les bébés d'une araignée à sa mort",
+
+  "advancements.baby_cave_spider_spawn.title": "Une vengeance venimeuse",
+  "advancements.baby_cave_spider_spawn.description": "Relachez les bébés d'une araignée venimeuse à sa mort",
+
+  "advancements.enter_messy_cobweb.title": "Atterrissage en douleur",
+  "advancements.enter_messy_cobweb.description": "Tombez dans une toile d'araignée désordonnée pendant un combat avec une araignée",
+
+  "subtitles.sihywtcamd_extensions.spider_spit": "Araignée qui crache"
+}

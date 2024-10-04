@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:sihywtcamd/baby_spider_spawn",
+  "criteria": {
+    "baby_cave_spider_spawn": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cave_spider",
+              "flags": {
+                "is_baby": true
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.baby_cave_spider_spawn.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cave_spider_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.baby_cave_spider_spawn.title"
+    }
+  },
+  "requirements": [
+    [
+      "baby_cave_spider_spawn"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

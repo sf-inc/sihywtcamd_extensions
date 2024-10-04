@@ -1,0 +1,22 @@
+{
+  "text.autoconfig.sihywtcamd_extensions.title": "SIHYWTCAMD Extensions 配置",
+
+  "text.autoconfig.sihywtcamd_extensions.category.skeletons": "骷髅",
+  "text.autoconfig.sihywtcamd_extensions.option.skeletons.general": "骷髅类怪物",
+  "text.autoconfig.sihywtcamd_extensions.option.skeletons.witherSkeleton": "凋零骷髅",
+  "text.autoconfig.sihywtcamd_extensions.option.skeletons.witherSkeleton.baby": "生成幼年形态",
+
+  "text.autoconfig.sihywtcamd_extensions.category.arthropods": "节肢怪物",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.generalSpiders.webProjectileGoal": "喷丝能力",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.spider": "蜘蛛",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.spider.babyOnDeath": "蜘蛛死亡时生成小蜘蛛",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.caveSpider.babyOnDeath": "洞穴蜘蛛死亡时生成小洞穴蜘蛛",
+
+  "text.autoconfig.sihywtcamd_extensions.category.cosmetics": "装饰性",
+  "text.autoconfig.sihywtcamd_extensions.option.cosmetics.translucentAllay": "半透明悦灵",
+  "text.autoconfig.sihywtcamd_extensions.option.cosmetics.translucentGhast": "半透明恶魂",
+  "text.autoconfig.sihywtcamd_extensions.option.cosmetics.translucentPhantom": "半透明幻翼",
+  "text.autoconfig.sihywtcamd_extensions.option.cosmetics.translucentVex": "半透明恼鬼",
+
+  "subtitles.sihywtcamd_extensions.spider_spit": "蜘蛛：喷丝"
+}

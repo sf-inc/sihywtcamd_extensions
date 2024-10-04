@@ -1,0 +1,37 @@
+{
+  "text.autoconfig.sihywtcamd_extensions.title": "SIHYWTCAMD Extensions Configuration",
+
+  "text.autoconfig.sihywtcamd_extensions.category.skeletons": "Skeletons",
+  "text.autoconfig.sihywtcamd_extensions.option.skeletons.general": "General skeletons",
+  "text.autoconfig.sihywtcamd_extensions.option.skeletons.general.baby": "Skeletons can spawn baby",
+  "text.autoconfig.sihywtcamd_extensions.option.skeletons.general.babyQuickAttackGoal": "Baby skeletons shoot quick volleys of arrows",
+  "text.autoconfig.sihywtcamd_extensions.option.skeletons.witherSkeleton": "Wither skeleton",
+  "text.autoconfig.sihywtcamd_extensions.option.skeletons.witherSkeleton.baby": "Wither skeletons can spawn baby",
+
+  "text.autoconfig.sihywtcamd_extensions.category.arthropods": "Arthropods",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.generalSpiders": "General spiders",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.generalSpiders.webProjectileGoal": "Spiders can launch webs",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.spider": "Spider",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.spider.babyOnDeath": "Spiders can spawn baby spiders on death",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.spider.babySpawnGroup": "Spiders can spawn in group of babies",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.caveSpider": "Cave spider",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.caveSpider.babyOnDeath": "Cave spiders can spawn baby cave spiders on death",
+  "text.autoconfig.sihywtcamd_extensions.option.arthropods.caveSpider.babySpawnGroup": "Cave spiders can spawn in group of babies",
+
+  "text.autoconfig.sihywtcamd_extensions.category.cosmetics": "Cosmetics",
+  "text.autoconfig.sihywtcamd_extensions.option.cosmetics.translucentAllay": "Allays texture is translucent",
+  "text.autoconfig.sihywtcamd_extensions.option.cosmetics.translucentGhast": "Ghasts texture is translucent",
+  "text.autoconfig.sihywtcamd_extensions.option.cosmetics.translucentPhantom": "Phantoms texture is translucent",
+  "text.autoconfig.sihywtcamd_extensions.option.cosmetics.translucentVex": "Vexes texture is translucent",
+
+  "advancements.baby_spider_spawn.title": "Baby Revenge",
+  "advancements.baby_spider_spawn.description": "Release the babies of a Spider when killing it",
+
+  "advancements.baby_cave_spider_spawn.title": "Poisonous Revenge",
+  "advancements.baby_cave_spider_spawn.description": "Release the babies of a Spider when killing it",
+
+  "advancements.enter_messy_cobweb.title": "Messy Situation",
+  "advancements.enter_messy_cobweb.description": "Get stuck in a Messy Cobweb while fighting with a Spider",
+
+  "subtitles.sihywtcamd_extensions.spider_spit": "Spider spits"
+}

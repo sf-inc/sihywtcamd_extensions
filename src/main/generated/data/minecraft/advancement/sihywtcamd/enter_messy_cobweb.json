@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:sihywtcamd/root",
+  "criteria": {
+    "enter_messy_cobweb": {
+      "conditions": {
+        "block": "sihywtcamd_extensions:messy_cobweb"
+      },
+      "trigger": "minecraft:enter_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.enter_messy_cobweb.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cobweb"
+    },
+    "title": {
+      "translate": "advancements.enter_messy_cobweb.title"
+    }
+  },
+  "requirements": [
+    [
+      "enter_messy_cobweb"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

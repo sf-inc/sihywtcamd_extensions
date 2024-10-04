@@ -1,9 +1,21 @@
 {
   "required": true,
-  "minVersion": "0.8",
   "package": "com.github.charlyb01.sihywtcamd_extensions.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "LivingEntityMixin",
+    "MobEntityMixin",
+    "skeleton.AbstractSkeletonLivingMixin",
+    "skeleton.AbstractSkeletonMobMixin",
+    "skeleton.WitherSkeletonMixin",
+    "spider.CaveSpiderLivingMixin",
+    "spider.CaveSpiderMixin",
+    "spider.HostileMixin",
+    "spider.LivingEntityMixin",
+    "spider.SpiderHostileMixin",
+    "spider.SpiderLivingMixin",
+    "spider.SpiderMobMixin",
+    "spider.SwordMixin"
   ],
   "injectors": {
     "defaultRequire": 1

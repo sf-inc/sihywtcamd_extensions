@@ -15,6 +15,15 @@
     ],
     "main": [
       "com.github.charlyb01.sihywtcamd_extensions.SihywtcamdExtensions"
+    ],
+    "cardinal-components": [
+      "com.github.charlyb01.sihywtcamd_extensions.cardinal.MyComponents"
+    ],
+    "modmenu": [
+      "com.github.charlyb01.sihywtcamd_extensions.compat.ModMenuIntegration"
+    ],
+    "fabric-datagen": [
+      "com.github.charlyb01.sihywtcamd_extensions.data.DataGenerator"
     ]
   },
   "mixins": [
@@ -25,8 +34,17 @@
     }
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "fabricloader": ">=0.15.11",
+    "fabric-api": ">=0.100.4"
+  },
+  "custom": {
+    "cardinal-components": [
+      "sihywtcamd_extensions:baby_component"
+    ],
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/eNwkve8k7c"
+      }
+    }
   }
 }
