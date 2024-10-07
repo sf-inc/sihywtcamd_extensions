@@ -3,9 +3,16 @@
   "id": "sihywtcamd_extensions",
   "version": "${version}",
   "name": "SIHYWTCAMD Extensions",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "description": "Extension mod of SIHYWTCAMD for features requiring the mod on client",
+  "authors": [
+    "Pardys",
+    "GalatynF"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/difficulty_extensions",
+    "issues": "https://github.com/sf-inc/sihywtcamd_extensions/issues",
+    "sources": "https://github.com/sf-inc/sihywtcamd_extensions"
+  },
   "license": "MIT",
   "icon": "assets/sihywtcamd_extensions/icon.png",
   "environment": "*",
