@@ -36,7 +36,7 @@ public class DataGenerator implements DataGeneratorEntrypoint {
         @Override
         public void generateAdvancement(RegistryWrapper.WrapperLookup registryLookup, Consumer<AdvancementEntry> consumer) {
             AdvancementEntry enterMessyCobweb = Advancement.Builder.create()
-                    .parent(Identifier.of(Sihywtcamd.MOD_ID + "/root"))
+                    .parent(Identifier.ofVanilla("adventure/honey_block_slide"))
                     .display(
                             Items.COBWEB,
                             Text.translatable("advancements.enter_messy_cobweb.title"),
@@ -51,7 +51,7 @@ public class DataGenerator implements DataGeneratorEntrypoint {
                     .build(consumer, SihywtcamdExtensions.MOD_ID + "/enter_messy_cobweb");
 
             AdvancementEntry babySpiderSpawn = Advancement.Builder.create()
-                    .parent(enterMessyCobweb)
+                    .parent(Identifier.ofVanilla("adventure/kill_a_mob"))
                     .display(
                             Items.SPIDER_SPAWN_EGG,
                             Text.translatable("advancements.baby_spider_spawn.title"),
