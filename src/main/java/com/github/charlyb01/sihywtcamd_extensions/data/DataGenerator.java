@@ -1,7 +1,7 @@
 package com.github.charlyb01.sihywtcamd_extensions.data;
 
+import com.github.charlyb01.sihywtcamd_extensions.SihywtcamdExtensions;
 import com.github.charlyb01.sihywtcamd_extensions.block.BlockRegistry;
-import com.github.galatynf.sihywtcamd.Sihywtcamd;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -48,7 +48,7 @@ public class DataGenerator implements DataGeneratorEntrypoint {
                             false
                     )
                     .criterion("enter_messy_cobweb", EnterBlockCriterion.Conditions.block(BlockRegistry.MESSY_COBWEB))
-                    .build(consumer, Sihywtcamd.MOD_ID + "/enter_messy_cobweb");
+                    .build(consumer, SihywtcamdExtensions.MOD_ID + "/enter_messy_cobweb");
 
             AdvancementEntry babySpiderSpawn = Advancement.Builder.create()
                     .parent(enterMessyCobweb)
@@ -67,7 +67,7 @@ public class DataGenerator implements DataGeneratorEntrypoint {
                                     .type(EntityType.SPIDER)
                                     .flags(EntityFlagsPredicate.Builder.create().isBaby(true))
                     ))
-                    .build(consumer, Sihywtcamd.MOD_ID + "/baby_spider_spawn");
+                    .build(consumer, SihywtcamdExtensions.MOD_ID + "/baby_spider_spawn");
 
             AdvancementEntry babyCaveSpiderSpawn = Advancement.Builder.create()
                     .parent(babySpiderSpawn)
@@ -86,7 +86,7 @@ public class DataGenerator implements DataGeneratorEntrypoint {
                                     .type(EntityType.CAVE_SPIDER)
                                     .flags(EntityFlagsPredicate.Builder.create().isBaby(true))
                     ))
-                    .build(consumer, Sihywtcamd.MOD_ID + "/baby_cave_spider_spawn");
+                    .build(consumer, SihywtcamdExtensions.MOD_ID + "/baby_cave_spider_spawn");
         }
     }
 }

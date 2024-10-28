@@ -47,7 +47,7 @@ dependencies {
     modImplementation "org.ladysnake.cardinal-components-api:cardinal-components-entity:${project.cardinal_version}"
     include "org.ladysnake.cardinal-components-api:cardinal-components-entity:${project.cardinal_version}"
 
-    modImplementation "com.github.galatynf:sihywtcamd:${project.sihywtcamd_version}+${project.minecraft_version}"
+    // modImplementation "com.github.galatynf:sihywtcamd:${project.sihywtcamd_version}+${project.minecraft_version}"
 }
 
 processResources {
